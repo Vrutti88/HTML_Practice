@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <style>
+        body{
+            background-color: rgb(143, 227, 199);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        div{
+            background-color: antiquewhite;
+            display: flex;
+            justify-content: center;
+            align-items: top;
+            text-align: center;
+            width: 40%;
+            height: 90%;
+            font-size: 20px;
+            border-radius: 30px;
+            box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.3);
+            border: 2px dashed black;
+            padding-top: 10px;
+        }
+        button{
+            background-color: gray;
+            color: aliceblue;
+            font-size: 18px;
+            border-radius: 12px;
+            border: 2px solid black;
+            height: 40px;
+            width: 110px;
+            
+        }
+        button:hover{
+            background-color: rgb(97, 98, 92);
+            height: 45px;
+            width: 120px;
+        }
+        .one:hover{
+            width: 150px;
+            height: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <form action="">
+            <h1>Registration Form</h1><br>
+            First Name: <input type="text" class="one" required><br><br>
+            Last Name: <input type="text" class="one" required><br><br>
+            Email: <input type="email" class="one" required><br><br>
+            Phone Number: <input type="tel" class="one" required><br><br>
+            Age: <input type="number" class="one"><br><br>
+            DOB: <input type="date" class="one"><br><br>
+            Gender: <label for="">male</label> <input type="radio" name="gender">  <label for="">female</label> <input type="radio" name="gender"><br><br>
+            Username: <input type="text" class="one" required><br><br>
+            Password: <input type="password" minlength="8" class="one" required><br><br>
+            Confirm Password: <input type="password" minlength="8" class="one" required><br><br>
+            I agree <input type="checkbox" required><br><br>
+            <button>Register</button>
+        </form>
+    </div>
+</body>
+</html>
