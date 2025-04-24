@@ -1,0 +1,11 @@
+h1{
+    color: rgb(199, 19, 91);
+    background-color: aquamarine;
+    text-align: center;
+    border: 1px black solid;
+}
+p{
+    color: green;
+    border: 5px solid pink;
+    text-align: center;
+}
