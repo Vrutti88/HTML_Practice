@@ -1,0 +1,33 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+p{
+    color: red;
+}
+#para{
+    color: green;
+}
+.para2{
+    color: aquamarine;
+}
+div{
+    color: pink;
+}
+.div1{
+    border: 2px solid red;
+    padding: 50px;
+    display: flex;
+}
+.div2{
+    background-color: green;
+    padding: 50px;
+    width: 50rem;
+    flex-direction: column;
+}
+.div3{
+    background-color: yellow;
+    padding: 50px;
+    width: 50rem;
+    flex-direction: column;
+}
