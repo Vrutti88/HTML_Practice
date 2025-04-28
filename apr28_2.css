@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* 
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+div{
+    border: 2px solid black;
+    background-color: aquamarine;
+    height: 100px;
+    width: 100px;
+    padding: 50px;
+    margin: 50px;
+}
+button{
+    background-color: cadetblue;
+    border: 2px solid black;
+    border-radius: 12px;
+    padding: 8px 12px;
+    margin: 10px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: crimson;
+}
+ul{
+    margin: 20px;
+}
+p::first-letter{
+    color: brown;
+}
+li:first-child{
+    color: blueviolet;
+}
+li:last-child{
+    color: darkblue;
+}
+li:nth-child(2){
+    color: green;
+}
+span{
+    background-color: green;
+    border: 2px solid black;
+}
