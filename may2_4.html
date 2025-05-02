@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #container{
+            border: 2px solid black;
+            display: flex;
+        }
+        .box{
+            width: 200px;
+            height: 200px;
+        }
+        #one{
+            background-color: aquamarine;
+            flex-grow: 1;
+        }
+        #two{
+            background-color: antiquewhite;
+            flex-grow: 2;
+        }
+        #three{
+            background-color: cadetblue;
+            flex-grow: 3;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div class="box" id="one"></div>
+        <div class="box" id="two"></div>
+        <div class="box" id="three"></div>
+    </div>
+</body>
+</html>
